@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsla(218, 100%, 53%, 0.5);
+}
+
+.addUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(15, 103, 255, 1);
+}
+.addUser input {
+  padding: 5px;
+  margin-left: 5px;
+}
+.addUser button {
+  padding: 5px;
+}
+.displayUsers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+}
+.displayUsers h1 {
+  font-size: 20px;
+}
+.displayUser {
+  border: 1px solid #000;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
